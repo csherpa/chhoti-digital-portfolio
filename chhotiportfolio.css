@@ -1,0 +1,89 @@
+
+html,body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(https://www.muralswallpaper.co.uk/app/uploads/into-the-woodlands-plain.jpg) no-repeat center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.bg{
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	top: 60px;
+	text-align: center;
+}
+h1{
+	font-size: 80px;
+	color: black;
+	font-style: normal;
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+	margin-bottom: 30px;
+}
+h2{
+	font-size: 50px;
+	font-style: normal;
+	position: relative;
+	top: 440px;
+	text-align: center;
+	font-family: monospace;
+	text-decoration: underline;
+}
+h4{
+	font-size: 50px;
+	font-style: normal;
+	position: relative;
+	top: 1085px;
+	text-align: center;
+	font-family: monospace;
+	text-decoration: underline;
+}
+p{
+	font-style: normal;
+	font-size: 20px;
+	width: 350px;
+	position: relative;
+	top: 100px;
+	left: 700px;
+}
+img{
+	width: 500px;
+	height: 650px;
+	position: relative;
+	top: -540px;
+	right: 550px;
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 1030px;
+}
+input{
+	border: 3;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	left: 370px;
+	bottom: 200px;
+
+}
+input[type="submit"]{
+	background: black;
+	color: white;
+}
+@media screen and (max-width: 768px){
+	.h1{
+		font-size: 100%;
+	}
+}
